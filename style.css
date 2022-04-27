@@ -72,14 +72,23 @@ section a{
     font-weight: 500;
     text-decoration: none;
     letter-spacing: 1px;
+    transition: all 1.5s ease;
 }
 section .btnone{
     background: white;
     color: black;
 }
+.btnone:hover{
+    background: #00b894;
+    color: white;
+}
 section .btntwo{
     background: #00b894;
     color: white;
+}
+.btntwo:hover{
+    background: white;
+    color: black;
 }
 .change_content:after{
     content: '';
